@@ -1,0 +1,39 @@
+body {
+    background-color: aqua;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    margin: 40px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 40px;
+    background-color: aquamarine;
+}
+
+nav ul li {
+    border: 1px solid black;
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: rgb(185, 185, 189);
+}
+
+nav ul li:hover {
+    background-color: azure;
+}
+
+a:hover { 
+    color: rgb(174, 82, 32);
+}
+
+small {
+    font-size: 10px;
+}
+
+p{
+    padding: 20px;
+}

@@ -1,5 +1,19 @@
 #contact-picture {
     margin-top: 75px;
-    
+}
 
+
+#contact-us h1{
+    font-size: 40px;
+}
+
+#contact-us h2{  
+    font-size: 30px;
+}
+
+#geek-photo {
+    margin-left: 20px;
+}
+#header-welcome {
+    color: red;
 }

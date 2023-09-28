@@ -30,10 +30,18 @@ a:hover {
     color: rgb(174, 82, 32);
 }
 
+a:link {
+    color: rgb(0, 0, 0);
+}
+
+a:visited {
+    color: rgb(0,0,0);
+}
+
 small {
     font-size: 10px;
 }
 
-p{
+p {
     padding: 20px;
 }

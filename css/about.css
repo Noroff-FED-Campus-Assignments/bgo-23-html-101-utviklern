@@ -1,4 +1,4 @@
-img {
+img, small {
     margin-left: 40px;
 }
 
@@ -6,9 +6,21 @@ footer img{
     margin-left: 0px;
 }
 
-small {
-    margin-left: 40px;
-}
-h1, h2 {
+h1, h2, h3 {
     text-align: center;
+    font-family: '../fonts/my special header font', fantasy;
+
+}
+p {
+    font-family: '../fonts/my special paragraph font';
+}
+
+h2{
+    margin-bottom: 40px;
+}
+#about-photo-main {
+    display: flex;
+    flex-direction: row;
+
+    
 }

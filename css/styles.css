@@ -1,3 +1,13 @@
+@font-face {
+    font-family: my special paragraph font;
+    src: url(../fonts/BootsAndSpurs.ttf);
+}
+
+@font-face {
+    font-family: my special header font;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
 body {
     background-color: aqua;
 }
@@ -62,4 +72,9 @@ footer p {
 footer img {
     float:inherit;
 
+}
+
+p::first-line {
+    letter-spacing: 4px;
+    word-spacing: 4x;
 }
